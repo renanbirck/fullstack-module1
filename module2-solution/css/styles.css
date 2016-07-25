@@ -1,15 +1,58 @@
 
 /* Styles that applies to the entire document,
    regardless of device size. */
+
+
+* {
+  box-sizing: border-box;
+}
 h1 {
   text-align: center;
   font-size: 125%;
+  margin-bottom: 3%;
 }
 
 section {
   background-color: #BBB;
 }
 
+section.section-left {
+  float: left;
+  width: 31%;
+
+}
+
+section.section-middle {
+  display: inline-block;
+  width: 31%;
+  padding-left: 3%;
+}
+
+section.section-right {
+  float: right;
+  width: 31%;
+}
+
+.section-title {
+  display: inline;
+  float: right;
+  border: 1px solid black;
+  padding: 2px;
+  position: relative;
+  left: -12px;
+  top: -16px;
+}
+
+.section-left>.section-title {
+  background-color: red;
+}
+.section-middle>.section-title {
+  background-color: pink;
+}
+
+.section-right>.section-title {
+  background-color: white;
+}
 /* MEDIA QUERIES */
 /* <= 767px: mobile
    768...991px: tablet
@@ -23,6 +66,10 @@ body { /* Desktop */
   body {
     background-color: green;
   }
+
+  section.section-right {
+    display: block;
+  }
 }
 
 
@@ -30,4 +77,14 @@ body { /* Desktop */
   body {
     background-color: red;
   }
+
+  section.section-left, section.section-middle, section.section-right {
+    width: 100%;
+    display: inline-block;
+    padding-top: 0%;
+    padding-left: 0%;
+    margin-bottom: 10%;
+  }
+
+
 }
