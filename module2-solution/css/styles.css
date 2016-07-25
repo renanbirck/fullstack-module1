@@ -58,14 +58,8 @@ section.section-right {
    768...991px: tablet
    >= 992px: desktop */
 
-body { /* Desktop */
-  background-color: cyan;
-}
 
 @media (max-width: 991px) { /* Tablet */
-  body {
-    background-color: green;
-  }
 
   section.section-right {
     display: block;
@@ -74,9 +68,7 @@ body { /* Desktop */
 
 
 @media (max-width: 767px) { /* Mobile */
-  body {
-    background-color: red;
-  }
+
 
   section.section-left, section.section-middle, section.section-right {
     width: 100%;
