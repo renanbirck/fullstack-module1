@@ -1,0 +1,33 @@
+
+/* Styles that applies to the entire document,
+   regardless of device size. */
+h1 {
+  text-align: center;
+  font-size: 125%;
+}
+
+section {
+  background-color: #BBB;
+}
+
+/* MEDIA QUERIES */
+/* <= 767px: mobile
+   768...991px: tablet
+   >= 992px: desktop */
+
+body { /* Desktop */
+  background-color: cyan;
+}
+
+@media (max-width: 991px) { /* Tablet */
+  body {
+    background-color: green;
+  }
+}
+
+
+@media (max-width: 767px) { /* Mobile */
+  body {
+    background-color: red;
+  }
+}
