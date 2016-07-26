@@ -65,8 +65,22 @@ p.section-text {
 
 @media (max-width: 991px) { /* Tablet */
 
-  section.section-right {
+  section.column-left {
+    float: left;
+    width: 47.5%;
+  }
+
+  section.column-middle {
+    float: right;
+    width: 47.5%;
+
+  }
+
+  section.column-right {
     display: block;
+    width: 100%;
+    margin-top: 3%;
+
   }
 }
 
