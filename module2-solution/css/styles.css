@@ -14,50 +14,50 @@ h1 {
 
 section {
   background-color: #BBB;
+  border: 1.5px black solid;
 }
 
-section.section-left {
+section.column-left {
   float: left;
   width: 31%;
-
+  margin-right: 3%;
 }
 
-section.section-middle {
+section.column-middle {
   display: inline-block;
   width: 31%;
   padding-left: 3%;
 }
 
-section.section-right {
+section.column-right {
   float: right;
   width: 31%;
 }
 
 .section-title {
-  display: inline;
+  display: block;
   float: right;
   border: 1px solid black;
   padding: 2px;
   position: relative;
-  left: -12px;
-  top: -16px;
+  left: 1px;
+  top: -17px;
 }
 
-.section-left>.section-title {
+.column-left>.section-title {
   background-color: red;
 }
-.section-middle>.section-title {
+.column-middle>.section-title {
   background-color: pink;
 }
 
-.section-right>.section-title {
+.column-right>.section-title {
   background-color: white;
 }
-/* MEDIA QUERIES */
-/* <= 767px: mobile
-   768...991px: tablet
-   >= 992px: desktop */
-
+/* MEDIA QUERIES
+  <= 767px: mobile
+  768...991px: tablet
+  >= 992px: desktop */
 
 @media (max-width: 991px) { /* Tablet */
 
@@ -70,12 +70,13 @@ section.section-right {
 @media (max-width: 767px) { /* Mobile */
 
 
-  section.section-left, section.section-middle, section.section-right {
-    width: 100%;
+  section.column-left, section.column-middle, section.column-right {
+    width: 90%;
     display: inline-block;
     padding-top: 0%;
-    padding-left: 0%;
-    margin-bottom: 10%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    margin-bottom: 3%;
   }
 
 
