@@ -19,19 +19,18 @@ section {
 
 section.column-left {
   float: left;
-  width: 31%;
-  margin-right: 3%;
+  width: 30%;
 }
 
 section.column-middle {
   display: inline-block;
-  width: 31%;
-  padding-left: 3%;
+  margin-left: 5%;
+  width: 30%;
 }
 
 section.column-right {
   float: right;
-  width: 31%;
+  width: 30%;
 }
 
 .section-title {
@@ -71,11 +70,11 @@ section.column-right {
 
 
   section.column-left, section.column-middle, section.column-right {
-    width: 90%;
+    width: 100%;
     display: inline-block;
     padding-top: 0%;
-    padding-bottom: 3%;
-    padding-left: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
     margin-bottom: 3%;
   }
 
