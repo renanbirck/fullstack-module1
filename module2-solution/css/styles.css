@@ -26,7 +26,7 @@ section.column-left {
 
 section.column-middle {
   display: inline-block;
-  margin-left: 5%;
+  margin-left: 4.5%;
   width: 30%;
 }
 
@@ -36,7 +36,7 @@ section.column-right {
 }
 
 p.section-text {
-  padding-top: 1.75%;
+  padding-top: 1.5%;
   padding-left: 1%;
 }
 .section-title {
@@ -80,7 +80,6 @@ p.section-text {
     margin-top: 3%;
   }
 }
-
 
 @media (max-width: 767px) { /* Mobile */
   * {
