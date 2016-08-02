@@ -1,0 +1,9 @@
+.really-long-text {
+  background-color: rgb(224, 224, 224);
+}
+
+@media (max-width: 767px) {
+  .really-long-text {
+    padding: 2%;
+  }
+}
