@@ -24,8 +24,10 @@
         <a class="navbar-brand" href="#">Food, LLC</a>
 
       </div>
+
+      <!-- the toggle button -->
       <div class="navbar-right visible-xs">
-        <button class="navbar-toggle collapsed">
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu" aria-expanded="false">
           <span class="sr-only">toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -33,6 +35,21 @@
         </button>
       </div>
     </div>
+
+
+    <!-- the toggle contents -->
+    <div class="collapse navbar-collapse" id="bs-menu">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <ul class="dropdown-menu">
+            <li>Chicken</li>
+            <li>Beef</li>
+            <li>Sushi</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
   </nav>  <!-- End nav bar -->
 
 <!-- main site -->

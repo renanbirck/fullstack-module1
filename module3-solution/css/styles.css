@@ -7,3 +7,7 @@
     padding: 2%;
   }
 }
+
+.visible-xs  {
+  margin-top: -60px;
+}
