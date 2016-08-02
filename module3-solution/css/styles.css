@@ -1,14 +1,13 @@
+
+/*  Make it look nicer */
 .really-long-text {
   background-color: rgb(224, 224, 224);
+  padding: 1%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 12px;
+  border-radius: 10px;
+  height: 1000px; /*  Force the page to scroll */
 }
-
-@media (max-width: 767px) {
-  .really-long-text {
-    padding: 2%;
-  }
-}
-
-
 
 /*  Menu formatting. */
 
