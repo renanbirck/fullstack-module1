@@ -8,6 +8,15 @@
   }
 }
 
-.visible-xs  {
-  margin-top: -60px;
+
+
+/*  Menu formatting. */
+
+#bs-menu {
+  background-color: rgb(192, 192, 192);
+  text-align: center;
+}
+
+#bs-menu a {
+  color: rgb(255, 255, 255);
 }
